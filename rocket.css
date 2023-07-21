@@ -1,0 +1,25 @@
+.left{
+	position: fixed;
+	background-color: aquamarine;
+	width:50%;
+	height: 100%;
+	top: 0;
+	left: 0; 
+}
+
+.right{
+	position: fixed;
+	background-color: aliceblue;
+	width:50%;
+	height: 100%;
+	top: 0;
+	right: 0;
+}
+
+a{
+
+}
+
+a.button{
+
+}
