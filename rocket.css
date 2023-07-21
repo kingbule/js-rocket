@@ -16,6 +16,15 @@
 	right: 0;
 }
 
+.rocket{
+	position:absolute ;
+	left: 50%;
+	bottom: 20px;
+	width: 20px;
+	height: 100px;
+	background-color: blue;
+}
+
 a{
 
 }
