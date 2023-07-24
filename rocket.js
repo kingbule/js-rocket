@@ -16,4 +16,4 @@ var changeState = function (state) {
 	} else if {
 
 	}
-}
+};
