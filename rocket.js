@@ -13,7 +13,7 @@ var changeState = function (state) {
                 clearInterval(timer)
             };
         }, 1000);
-	} else if {
+	} else {
 
 	}
 };
