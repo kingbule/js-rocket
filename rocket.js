@@ -10,10 +10,10 @@ var changeState = function (state) {
             document.getElementById('countdown').innerHTML = countdownNumber;
             countdownNumber = countdownNumber-1;
             if (countdownNumber <= 0) {
-                changeState(3)
+               changeState(3)
             };
         }, 1000);
 	} else if {
-		
+
 	}
 }
