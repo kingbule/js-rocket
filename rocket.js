@@ -14,6 +14,8 @@ var changeState = function (state) {
             };
         }, 1000);
 	} else if (state == 3) {
-  
-	}
-};
+       var success = setTimeout(function (){
+               var randomNumber = Math.random()
+       }, 2000);
+	};
+}
