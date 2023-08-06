@@ -15,7 +15,13 @@ var changeState = function (state) {
         }, 1000);
 	} else if (state == 3) {
        var success = setTimeout(function (){
-               var randomNumber = Math.random()
+               var randomNumber = Math.round(Math.random()*10)
+
+               if (randomNumber > 5) {
+                  changeState(5); // your stuck
+               } else {
+                  changeState(4);
+               }
        }, 2000);
 	};
 }
