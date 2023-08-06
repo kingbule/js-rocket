@@ -17,6 +17,8 @@ var changeState = function (state) {
        var success = setTimeout(function (){
                var randomNumber = Math.round(Math.random()*10)
 
+               console.log('randomNumber: ',randomNumber)
+
                if (randomNumber > 5) {
                   changeState(5); // your stuck
                } else {
