@@ -22,7 +22,7 @@ document.getElementById('countdown').innerHTML = countdownNumber;
 
                console.log('randomNumber: ',randomNumber)
 
-               if (randomNumber > 5) {
+               if (randomNumber >= 5) {
                   changeState(5); // your stuck
                } else {
                   changeState(4);
